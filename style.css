@@ -1,0 +1,97 @@
+.container-header{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#english{
+    text-decoration: underline;
+}
+
+.toptop{
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: #2979FF;
+}
+
+a{
+    color: #ede5dc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color:#005C8D;
+}
+
+.knapper{
+  width:100%; 
+  max-width:100%; 
+  margin:auto;
+  position: absolute;
+  top:70%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.div1, .div2, .div3, .div4{
+    width: 150px;
+    display: inline-block;
+    justify-content: space-around;
+    box-shadow: 2px 3px #888888;
+    border-radius: 5px;
+    background:#2977ff; 
+    cursor: pointer;
+}
+
+.div4{
+    margin-right: 80px;
+
+}
+.div1{
+    margin-left: 80px;
+
+}
+
+h1{
+    font-size: 1em;
+    color: #ede5dc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 10px;
+    color: #ede5dc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainsection{
+    background-image: url("/images/oliven.png");
+    background-size: cover;
+    width: 600px;
+    height: 230px;
+    position: absolute;
+    top:22%;
+    left:50%;
+    margin-left: -300px;
+    border-radius: 10px;
+}
+
+.minih{
+    margin-left: 20px;
+    color: #495b6c;
+    font-size: 1.5em;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.minip{
+    width: 260px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #495b6c;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ffb129;
+}
